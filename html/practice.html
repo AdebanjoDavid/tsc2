@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=initial-scale=1.0" />
+
+</head>
+
+<body>
+  <input type="search" id="searchvalue">
+  <div class="container">
+    <ul>
+      <li class="list">python</li>
+      <li class="list">java</li>
+      <li class="list">daniel</li>
+      <li class="list">computr</li>
+      <li class="list">bag</li>
+      <li class="list">html</li>
+      <li class="list">garri</li>
+      <li class="list">sugar</li>
+    </ul>
+  </div>
+  <ul>
+    <li class="list1">python</li>
+    <li class="list2">java</li>
+    <li class="list3">daniel</li>
+    <li class="list4">computr</li>
+    <li class="list">bag</li>
+    <li class="list">html</li>
+    <li class="list">garri</li>
+    <li class="list">sugar</li>
+  </ul>
+  <script>
+    document.querySelector("#searchvalue").addEventListener('input', result)
+    function result() {
+      const searchInput = document.querySelector("#searchvalue");
+      const filter = searchInput.value;
+      const items = document.querySelectorAll(".list");
+
+      items.forEach((list) => {
+        let text = list.textContent || innerHTMl;
+        if (text.toLowerCase().includes(filter.toLowerCase())) {
+          list.style.display = ""
+        } else {
+          list.style.display = "none"
+        }
+      }
+      )
+    }
+
+  </script>
+  <script src="../scripts/body.js"></script>
+</body>
+
+</html>

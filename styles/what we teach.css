@@ -1,0 +1,41 @@
+.section2 .new-context {
+  width: 80%;
+  padding: 1.5% 7%;
+}
+#header-container {
+  width: 100%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0)),
+    url(../image/img2.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 60vh;
+  margin-bottom: 0;
+}
+span {
+  color: #4f7c39;
+  font-size: 1rem;
+  font-family: 'poppins', sans-serif;
+  font-weight: 600;
+  display: block;
+  padding-top: 25px;
+}
+.paragraph h2 {
+  font-size: 2rem;
+}
+.paragraph p {
+  font-size: 1rem;
+  font-family: 'poppins', sans-serif;
+  line-height: 35px;
+}
+.paragraph {
+  margin-top: 100px;
+}
+@media (max-width: 770px) {
+  .section2 .new-context {
+    width: 100%;
+    display: block;
+    align-items: center;
+    padding: 20px 55px 45px;
+  }
+}

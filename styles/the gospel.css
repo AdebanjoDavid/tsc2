@@ -1,0 +1,93 @@
+.sermons {
+  background-color: #4f7c39;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+* {
+  transition: all 0.3s ease;
+}
+#hearderc {
+  width: 100%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0)),
+    url(../image/img4.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 60vh;
+  margin-bottom: 0;
+}
+
+.sermon div {
+  width: 80%;
+}
+.sermon .h2,
+.h2 {
+  font-size: 2.1rem;
+  text-transform: capitalize;
+  font-family: 'playfair disply', serif;
+  color: whitesmoke;
+  margin-bottom: 20px;
+  text-align: center;
+  padding-top: 80px;
+}
+.sermon p,
+.int {
+  font-size: 1rem;
+  font-family: 'poppins', sans-serif;
+  color: #ffffff;
+  line-height: 30px;
+}
+.sermon .intro {
+  font-size: 1rem;
+  font-family: 'poppins', sans-serif;
+  color: #ffffff;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+ul {
+  color: #ffffff;
+  list-style-type: square;
+  font-size: 1.3rem;
+}
+ul {
+  margin-bottom: 50px;
+}
+.int span {
+  font-family: arial;
+  font-weight: bold;
+}
+#h2 {
+  padding-bottom: 50px;
+  padding-top: 0px;
+}
+.sermon a {
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: underline;
+  font-family: arial;
+}
+.abc {
+  font-family: 'playfair display', serif;
+}
+.iframe {
+  width: 100%;
+  background-color: #265488;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+.iframe div {
+  height: 100%;
+  width: 80%;
+}
+.iframe video {
+  width: 90%;
+}
+@media (min-width: 1200px) {
+  .iframe video {
+    width: 70%;
+  }
+}

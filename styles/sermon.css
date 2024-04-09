@@ -1,0 +1,171 @@
+#header-containers {
+  width: 100%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0)),
+    url(../image/bible.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 60vh;
+  margin-bottom: 0;
+}
+.sermon-head {
+  text-align: center;
+}
+input,
+button {
+  margin-left: 15px;
+  margin-top: 30px;
+  padding: 5px 10px;
+  border: 1px solid #4f7c39;
+  border-radius: 7px;
+}
+.sermon-head button {
+  background-color: #4f7c39;
+  font-size: 0.95rem;
+  font-family: 'poppins', sans-serif;
+  color: whitesmoke;
+  margin-left: auto;
+}
+.sermon-head button:hover {
+  background-color: #234912;
+  transition: all 0.3s ease;
+}
+.sermons .image {
+  text-align: center;
+}
+.sermons .thumbnail {
+  width: 92%;
+  margin-top: 40px;
+}
+@media (min-width: 433px) {
+  input,
+  button {
+    margin-left: 15px;
+    margin-top: 30px;
+    padding: 5px 5px;
+    font-size: 0.8rem;
+  }
+  .sermon-head button {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+}
+
+.sermons .title {
+  font-size: 1.4rem;
+  color: #234912;
+  text-transform: capitalize;
+  margin-top: 5px;
+}
+.sermon-context .category,
+.preacher {
+  font-size: 0.95rem;
+  font-family: 'poppins', sans-serif;
+  margin-top: 10px;
+  text-transform: capitalize;
+}
+.sermons {
+  margin-left: 0px;
+}
+.sermon-context {
+  margin-left: 4.2%;
+  position: relative;
+}
+.sermon-context .verse {
+  color: gray;
+  text-transform: capitalize;
+  margin-top: 5px;
+}
+.sermon-context .profile {
+  width: 40px;
+  min-height: 40px;
+  border-radius: 100px;
+  position: absolute;
+  bottom: 10px;
+}
+.sermons .date,
+.rank,
+.preacher {
+  margin-left: 50px;
+}
+.sermon-context .rank {
+  color: gray;
+}
+.sermon-context .date {
+  margin-top: 5px;
+  font-weight: normal;
+}
+input:focus {
+  outline: none;
+  border-color: #132908;
+  padding-left: 10px;
+}
+@media (min-width: 772px) {
+  .sermons .thumbnail {
+    width: 227px;
+    left: 25px;
+  }
+  .sermons-box {
+    width: 500px;
+  }
+  .sermons {
+    position: relative;
+    width: 500px;
+  }
+  .sermon-context {
+    position: absolute;
+    right: -60px;
+    top: 31px;
+  }
+  .sermons .date,
+  .rank {
+    margin-top: 0px;
+  }
+  .sermons .preacher {
+    margin-bottom: 0;
+    margin-top: 3px;
+  }
+  .sermon-head {
+    text-align: left;
+    margin-left: 200px;
+  }
+  .sermons {
+    margin-left: 8%;
+    margin-bottom: 70px;
+  }
+}
+@media (min-width: 1000px) {
+  .sermons .thumbnail {
+    width: 310px;
+    height: 157px;
+  }
+  .sermon-context {
+    right: -100px;
+    top: 33px;
+  }
+  .sermons {
+    margin-left: 8%;
+    margin-bottom: 70px;
+  }
+  .sermon-head {
+    text-align: left;
+    margin-left: 175px;
+  }
+}
+@media (min-width: 1200px) {
+  .sermons .thumbnail {
+    width: 367px;
+    height: 191px;
+  }
+  .sermons .sermon-context {
+    right: -130px;
+    top: 43px;
+  }
+  .sermons {
+    margin-left: 185px;
+    margin-bottom: 70px;
+  }
+  .sermon-head {
+    margin-left: 250px;
+  }
+}

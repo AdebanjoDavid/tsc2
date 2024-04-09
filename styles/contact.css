@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#header-container {
+  width: 100%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.1)),
+    url(../image/background6.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 60vh;
+  margin-bottom: 0;
+}
+.map p {
+  color: #4f7c39;
+  font-family: 'playfair display', serif;
+}
+.contact .head {
+  font-family: serif;
+  font-size: 1.7rem;
+  margin: 15px auto;
+}
+.contact p {
+  font-size: 1.2rem;
+  font-family: 'poppins', sans-serif;
+  font-weight: 400;
+  color: #222222;
+  margin-bottom: 10px;
+  line-height: 30px;
+}
+span {
+  color: #4f7c39;
+  font-size: 1.1rem;
+}
+#head {
+  margin-top: 20px;
+}
+.line {
+  background-color: #e6e6e6;
+  height: 1px;
+  width: 100%;
+  margin-top: 20px;
+}
+.mapcontainer {
+  overflow: hidden;
+}
+.map {
+  margin-bottom: 50px;
+}
+@media (min-width: 680px) {
+  .map {
+    width: 640px;
+    margin-left: 10%;
+    margin-top: 25px;
+  }
+}
+@media (max-width: 790px) {
+  .map {
+    width: 97%;
+    padding-top: 40px;
+    margin: auto auto;
+  }
+  .map-image {
+    height: 440px;
+    width: 100%;
+    margin: auto auto;
+  }
+  .contact,
+  a p {
+    margin-left: 3px;
+  }
+}
+@media (min-width: 1178px) {
+  .map-image {
+    width: 380px;
+    height: 380px;
+  }
+  .contacts {
+    position: absolute;
+    top: -10px;
+    right: -300px;
+  }
+  .map {
+    position: relative;
+  }
+  .line {
+    width: 500px;
+  }
+}
+#form {
+  background-color: #4f7c39;
+}
+.form p,
+h2 {
+  color: #e6e6e6;
+}
+.submit {
+  background-color: whitesmoke;
+  color: #4f7c39;
+}

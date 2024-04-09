@@ -1,0 +1,73 @@
+# Query: poppin
+# ContextLines: 1
+
+17 results - 6 files
+
+site\styles\body.css:
+   81    padding-bottom: 2em;
+   82:   font-family: 'poppins', sans-serif;
+   83    font-weight: 300;
+
+   96    font-size: 20px;
+   97:   font-family: 'poppins', sans-serif;
+   98    font-weight: 400;
+
+  107    transition: all, 0.5s;
+  108:   font-family: 'poppins', sans-serif;
+  109  }
+
+site\styles\contact.css:
+  25    font-size: 1.2rem;
+  26:   font-family: 'poppins', sans-serif;
+  27    font-weight: 400;
+
+site\styles\font.css:
+  1  @font-face {
+  2:   font-family: 'poppins';
+  3    font-weight: normal;
+  4:   src: url(../font/poppins-regular-webfont.woff2) format('woff2');
+  5:   src: url(../font/poppins-regular-webfont.woff) format('woff');
+  6  }
+
+site\styles\give.css:
+   56    font-size: 0.85rem;
+   57:   font-family: 'poppins', sans-serif;
+   58    line-height: 1.6em;
+
+  107    font-size: 0.85rem;
+  108:   font-family: 'poppins', sans-serif;
+  109    font-weight: 300;
+
+site\styles\i'm-new.css:
+   66    font-size: 0.9rem;
+   67:   font-family: 'poppins', sans-serif;
+   68    padding-top: 15px;
+
+   99    font-size: 1rem;
+  100:   font-family: 'poppins', sans-serif;
+  101    line-height: 35px;
+
+  156  .heading-container p {
+  157:   font-family: 'poppins', sans-serif;
+  158    font-size: .85rem;
+
+  183    font-size: 0.9rem;
+  184:   font-family: 'poppins', sans-serif;
+  185    line-height: 35px;
+
+  194    font-size: 0.9rem;
+  195:   font-family: 'poppins', sans-serif;
+  196    line-height: 50px;
+
+  246    font-size: 0.8rem;
+  247:   font-family: 'poppins', sans-serif;
+  248    font-weight: 650;
+
+site\styles\sermon.css:
+  24    font-size: 0.87rem;
+  25:   font-family: 'poppins', sans-serif;
+  26    color: whitesmoke;
+
+  62    font-size: 0.87rem;
+  63:   font-family: 'poppins', sans-serif;
+  64    margin-top: 10px;

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>text on image</title>
+  <style>
+    .big-image {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      margin: auto;
+    }
+
+    .image-container {
+      position: relative;
+      margin-top: 10px;
+      width: 70%;
+    }
+
+    .welcome-background {
+      width: 100%;
+      height: 550px;
+      border-radius: 0.8em;
+      filter: brightness(60%);
+    }
+
+    .image-container .content1 {
+      position: absolute;
+      bottom: 80px;
+      left: 20px;
+      color: whitesmoke;
+      font-size: 2.5rem;
+      text-transform: capitalize;
+    }
+
+    .image-container .content2 {
+      position: absolute;
+      bottom: 75px;
+      left: 20px;
+      color: whitesmoke;
+      font-size: 1rem;
+      text-transform: capitalize;
+      text-shadow: 5px 5px 10px black;
+      font-weight: 800;
+    }
+
+    .image-container .visit {
+      background: #ff661e;
+      padding: 0.44em 3.75em;
+      min-width: 100px;
+      border-radius: 1rem;
+      margin-right: 0;
+      width: auto;
+      border: 0 solid #000;
+      position: absolute;
+      bottom: 25px;
+      left: 20px;
+      color: whitesmoke;
+      font-size: 20px;
+      font-weight: 700;
+      text-transform: capitalize;
+    }
+
+    @media (max-width: 897px) {
+      .image-container {
+        position: relative;
+        margin-top: 10px;
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="big-image">
+    <div class="image-container">
+      <img class="welcome-background" src="image/welcome-background.webp" alt="" />
+      <p class="content1">it never too late</p>
+      <p class="content2">come to church, come to jesus</p>
+      <button class="visit">visit now</button>
+    </div>
+  </div>
+  <script src="../scripts/body.js"></script>
+</body>
+
+</html>
