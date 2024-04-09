@@ -9,7 +9,7 @@ const teach = document.querySelector('.teach');
 const pastor = document.querySelector('.pastor');
 const gospel = document.querySelector('.gospel');
 const steps = document.querySelector('.steps');
-const pathName = document.location.pathname.split('/site/html/').pop();
+const pathName = document.location.pathname.split('html/').pop();
 console.log(pathName);
 if (pathName == `about.html`) {
   home.classList.remove('active');
