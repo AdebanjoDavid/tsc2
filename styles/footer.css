@@ -1,16 +1,19 @@
 footer {
   width: 100%;
-  height: 800px;
+  height: 400px;
   position: relative;
   bottom: 0;
   background-color: #265488;
   padding: 0em 1em 1.125em;
   padding-top: 35px;
   position: relative;
-  padding-left: 27%;
+  padding-left: 200px;
+  position: relative;
+  z-index: -10;
 }
 footer .nav1 {
   display: inline;
+  width: min-content;
 }
 footer .nav1 a,
 .abt {
@@ -23,11 +26,12 @@ footer .nav1 a,
 .line {
   background-color: #e6e6e6;
   height: 01px;
-  width: 80%;
+  width: 85%;
   margin-top: 20px;
 }
-.about a,
-.sc p {
+.abou a,
+.sc p,
+.home a {
   display: block;
   font-family: 'poppins', serif;
   font-size: 1rem;
@@ -40,12 +44,44 @@ footer .nav1 a,
   margin-bottom: 9px;
   font-weight: bold;
 }
-.about {
-  display: inline;
+.abou {
+  left: 370px;
+  position: absolute;
+  top: 80px;
 }
 .sc {
-  display: inline;
-  margin-top: -100px;
-  margin-left: px;
-  height: 100px;
+  position: absolute;
+  top: 80px;
+  left: 570px;
+}
+@media (max-width: 725.5px) {
+  .sc {
+    position: absolute;
+    top: 160px;
+  }
+  .abou {
+    top: 290px;
+    left: 7%;
+  }
+  .sc {
+    top: 450px;
+    left: 7%;
+  }
+  .home {
+    position: absolute;
+  }
+  footer {
+    height: 700px;
+    padding-left: 7%;
+  }
+}
+.yt,
+.insta {
+  width: 35px;
+  height: 60px;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+.contact p {
+  line-height: 27px;
 }

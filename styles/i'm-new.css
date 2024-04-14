@@ -61,7 +61,7 @@ body {
 .new-context .head {
   color: #4f7c39;
   font-size: 2rem;
-  font-family: 'playfair display', serif;
+  font-family: 'poppins', serif;
 }
 .new-context #body {
   font-size: 1rem;
@@ -152,7 +152,7 @@ body {
 .heading-container h2 {
   font-size: 2rem;
   margin-bottom: 15px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'poppins', serif;
 }
 .heading-container p {
   font-family: 'poppins', sans-serif;
@@ -166,7 +166,7 @@ body {
   font-size: 1.5rem;
   margin-bottom: 0;
   font-weight: 100;
-  font-family: 'Playfair Display', serif;
+  font-family: 'poppins', serif;
   position: relative;
   transition: opacity 10s, background-color 0.5s, color 0.5s;
   cursor: pointer;
@@ -175,7 +175,7 @@ body {
   font-size: 1.5rem;
   margin-bottom: 15px;
   font-weight: 100;
-  font-family: 'Playfair Display', serif;
+  font-family: 'poppins', serif;
   position: relative;
   transition: opacity 10s, background-color 0.5s, color 0.5s;
   cursor: pointer;
@@ -239,7 +239,7 @@ body {
 }
 .form h2 {
   font-size: 2rem;
-  font-family: 'playfair display', serif;
+  font-family: 'poppins', serif;
   font-weight: 300;
   padding-bottom: 25px;
 }
@@ -283,7 +283,7 @@ textarea:focus {
   margin-top: 15px;
   padding: 6px 12px;
   font-size: 1.1rem;
-  font-family: 'playfair display', serif;
+  font-family: 'poppins', serif;
 }
 #submit:hover {
   background-color: #3c5f2a;
@@ -354,7 +354,7 @@ textarea:focus {
   bottom: 25px;
   left: 20px;
   color: whitesmoke;
-  font-family: 'playfair display', serif;
+  font-family: 'poppins', serif;
   font-size: 20px;
   font-weight: 700;
   text-transform: capitalize;

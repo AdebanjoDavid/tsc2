@@ -21,7 +21,7 @@ body {
 }
 
 .h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'poppins', serif;
   line-height: 1.5em;
   font-size: 2rem;
   font-weight: 300;
@@ -37,16 +37,22 @@ body {
   margin-left: -120px;
   line-height: 30px;
 }
+.main .info1 {
+  margin-left: 30px;
+}
+.main .info2 {
+  margin-left: -95px;
+}
 .main h2 {
   font-size: 1.5rem;
   color: #265488;
-  font-family: 'Playfair Display', serif;
+  font-family: 'poppins', serif;
   font-weight: 300;
   margin-left: -80px;
 }
 give p {
   font-size: 1.3rem;
-  font-family: 'Playfair Display', serif;
+  font-family: 'poppins', serif;
   font-weight: 300;
   color: #265488;
   margin-bottom: 10px;
@@ -92,7 +98,7 @@ li {
 }
 .new-context h2 {
   font-size: 2rem;
-  font-family: 'playfair display', serif;
+  font-family: 'poppins', serif;
   color: whitesmoke;
   font-weight: 300;
   margin-bottom: 20px;
@@ -140,7 +146,7 @@ button {
   padding: 7px 10px;
   color: whitesmoke;
   font-size: 1.1rem;
-  font-family: 'playfair display', serif;
+  font-family: 'poppins', serif;
   text-transform: capitalize;
   border-radius: 3px;
   border: none;

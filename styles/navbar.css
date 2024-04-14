@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
 body {
   margin: 0;
   padding: 0;
@@ -6,8 +5,8 @@ body {
 }
 * {
   text-decoration: none;
-  /* font-family: roboto; */
   box-sizing: border-box;
+  font-family: 'poppins', serif;
 }
 .header-container header {
   display: flex;
